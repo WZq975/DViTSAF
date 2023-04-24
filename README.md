@@ -1,1 +1,1 @@
-# Distillating Vision Transformer via Self-Attention Forcing
+# Distilling Vision Transformer via Self-Attention Forcing
