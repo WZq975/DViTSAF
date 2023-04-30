@@ -9,25 +9,25 @@ train.py [-h] [--objective {teacher,student,distillation}] [--distillation {KD,S
 ```
 The options for running the script are as follows:
 
-### Model
+#### Model
 
 * `--objective {teacher,student,distillation}`: The type of model to train, whether teacher, student or distillation (default: distillation).
 * `--distillation {KD,SAF,SAF+KD}`: The type of distillation method to use: KD, SAF(ours), SAF+KD (default: SAF).
 
-### Dataset
+#### Dataset
 
 * `--dataset {CIFAR-10,CIFAR-100,Flowers-102}`: The name of the dataset to use (default: CIFAR10).
 
-### Data
+#### Data
 
 * `--batch_size BATCH_SIZE`: The batch size to use for training (default: 256).
 
-### Optimization
+#### Optimization
 
 * `--epochs EPOCHS`: The number of epochs to train for (default: 40).
 * `--lr LR`: The learning rate to use for the Adam optimizer (default: 0.0001).
 
-### Experiment Config
+#### Experiment Config
 
 * `--logdir LOGDIR`: A unique experiment identifier to use for logging (default: ./logs).
 
