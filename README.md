@@ -5,7 +5,7 @@
 | Student (ViT-T)  | 96.25%   | 84.67%    | 84.32%      |
 | DViTSAF (Ours)   | **97.10%**   | **85.74%**    | **88.45%**      |
 | Vanilla KD       | 96.33%   | 85.02%    | 87.67%      |
-| DViTSAF + Vanilla KD | **97.43%** | **85.97%** | **89.09%** |
+| DViTSAF + Vanilla KD | **97.43%** | **85.97%** | [**89.09%**](https://drive.google.com/file/d/1aJ6oh-daYk7N2Ztg2xAgcRq4lJAU2zyK/view?usp=share_link) |
 
 ## Usage
 
