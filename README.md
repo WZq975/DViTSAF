@@ -1,13 +1,12 @@
 # Distilling Vision Transformer via Self-Attention Forcing
 
-This project provides an implementation of distillation of Vision Transformers, allowing for the training of smaller student models to match the performance of larger teacher models. 
 
 ## Usage
 
 To run the project, use the following command:
-
+```
 train.py [-h] [--batch_size BATCH_SIZE] [--objective {teacher,student,distillation}] [--distillation {KD,SAF,SAF+KD}] [--epochs EPOCHS] [--lr LR] [--dataset {CIFAR-10,CIFAR-100,Flowers-102}] [--logdir LOGDIR]
-
+```
 The options for running the script are as follows:
 
 ### Data
