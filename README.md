@@ -13,7 +13,7 @@ The trained weights have been hyperlinked to their corresponding accuracies.
 
 To run the project, use the following command:
 ```
-train.py [-h] [--objective {teacher,student,distillation}] [--distillation {KD,SAF,SAF+KD}] [--dataset {CIFAR-10,CIFAR-100,Flowers-102}] [--batch_size BATCH_SIZE] [--epochs EPOCHS] [--lr LR] [--logdir LOGDIR]
+python train.py [-h] [--objective {teacher,student,distillation}] [--distillation {KD,SAF,SAF+KD}] [--dataset {CIFAR-10,CIFAR-100,Flowers-102}] [--batch_size BATCH_SIZE] [--epochs EPOCHS] [--lr LR] [--logdir LOGDIR]
 ```
 The options for running the script are as follows:
 
