@@ -1,5 +1,11 @@
 # Distilling Vision Transformer via Self-Attention Forcing (DViTSAF)
-
+| Model            | CIFAR-10 | CIFAR-100 | Flowers-102 |
+| ----------------|---------:|----------:|------------:|
+| Teacher (ViT-L)  | 98.23%   | 89.29%    | 98.70%      |
+| Student (ViT-T)  | 96.25%   | 84.67%    | 84.32%      |
+| DViTSAF (Ours)   | **97.10%**   | **85.74%**    | **88.45%**      |
+| Vanilla KD       | 96.33%   | 85.02%    | 87.67%      |
+| DViTSAF + Vanilla KD | **97.43%** | **85.97%** | **89.09%** |
 
 ## Usage
 
