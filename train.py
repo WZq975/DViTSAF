@@ -146,9 +146,9 @@ def main():
         model.to(device)
         optimizer = optim.Adam(model.parameters(), lr=args.lr)
     elif args.objective == 'distillation':
-        model_t = PromptedVisionTransformer(patch_size=16, embed_dim=1024, depth=24, num_heads=16,
+        model_t = ModifieddVisionTransformer(patch_size=16, embed_dim=1024, depth=24, num_heads=16,
                                                 num_classes=num_class)
-        pretrained_path = './weights/' + f'{args.dataset}_{args.objective}.pth'
+        pretrained_path = './weights/' + f'{args.dataset}_teacher.pth'
         if not os.path.exists(pretrained_path):
             raise FileNotFoundError(f"The file {pretrained_path} does not exist! Please train the teacher model on"
                                     f" the target dataset first.")
@@ -156,7 +156,7 @@ def main():
         model_t.load_state_dict(pretrained_dict)
 
         pretrained_s = timm.create_model('vit_tiny_patch16_224', pretrained=True, num_classes=num_class)
-        model_s = PromptedVisionTransformer(patch_size=16, embed_dim=192, depth=12, num_heads=3,
+        model_s = ModifieddVisionTransformer(patch_size=16, embed_dim=192, depth=12, num_heads=3,
                                             num_classes=num_class)
         pretrained_state = pretrained_s.state_dict()
         model_s_state = model_s.state_dict()
