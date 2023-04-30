@@ -62,7 +62,7 @@ class ModifiedBlock(Block):
 
 
 
-class PromptedVisionTransformer(VisionTransformer):
+class ModifieddVisionTransformer(VisionTransformer):
     def __init__(self, *args, **kwargs):
         super().__init__(block_fn=ModifiedBlock, *args, **kwargs)
 

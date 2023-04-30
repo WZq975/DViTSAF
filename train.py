@@ -12,7 +12,7 @@ import os
 from config import get_config_parser
 import json
 
-from ViT_class import PromptedVisionTransformer
+from ViT_class import ModifieddVisionTransformer
 
 # Set the GPU index to use
 # os.environ["CUDA_VISIBLE_DEVICES"] = "0"
