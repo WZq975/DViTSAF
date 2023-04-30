@@ -1,7 +1,7 @@
 import argparse
 
 def get_config_parser():
-    parser = argparse.ArgumentParser(description="Let's distillate vision transformers.")
+    parser = argparse.ArgumentParser(description="Let's distill vision transformers.")
 
     data = parser.add_argument_group("Data")
     data.add_argument(
