@@ -31,9 +31,6 @@ The options for running the script are as follows:
 
 * `--logdir LOGDIR`: A unique experiment identifier to use for logging (default: ./logs).
 
-## Options
-
-* `-h, --help`: Shows the help message and exits.
 
 ## Examples
 
