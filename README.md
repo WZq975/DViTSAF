@@ -54,5 +54,5 @@ python train.py --objective 'distillation' --distillation 'SAF' --dataset 'CIFAR
 ```
 Directly train the student without distillation:
 ```
-python train.py --objective 'student' --dataset 'CIFAR-100' --batch_size 64
+python train.py --objective 'student' --dataset 'CIFAR-100' 
 ```
