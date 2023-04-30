@@ -42,7 +42,7 @@ The options for running the script are as follows:
 
 ## Examples
 
-Here are examples of how to run the scripts to reproduct the results on CIFAR-100:
+Here are examples of how to run the scripts to reproduce the above results on CIFAR-100:
 
 Train the teacher:
 ```
