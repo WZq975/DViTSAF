@@ -3,9 +3,11 @@
 | ----------------|---------:|----------:|------------:|
 | Teacher (ViT-L)  | 98.23%   | 89.29%    | 98.70%      |
 | Student (ViT-T)  | 96.25%   | 84.67%    | 84.32%      |
-| DViTSAF (Ours)   | **97.10%**   | **85.74%**    | **88.45%**      |
+| DViTSAF (Ours)   | [**97.10%**](https://drive.google.com/file/d/1BUCs2YZykusyXLMYwaniyQ9wuOBKyKpN/view?usp=share_link)   | [**85.74%**](https://drive.google.com/file/d/18BM9S7D_MD0GLamvrwVqXhaqjZRteJTy/view?usp=share_link)    | [**88.45%**](https://drive.google.com/file/d/1jOM8HH2vCdPAAIw9o6F4DDanPluLOuy0/view?usp=share_link)      |
 | Vanilla KD       | 96.33%   | 85.02%    | 87.67%      |
-| DViTSAF + Vanilla KD | **97.43%** | **85.97%** | [**89.09%**](https://drive.google.com/file/d/1aJ6oh-daYk7N2Ztg2xAgcRq4lJAU2zyK/view?usp=share_link) |
+| DViTSAF + Vanilla KD | [**97.43%**](https://drive.google.com/file/d/1D1KIv1Q0u5oQlKgzkO3bIv5pSEBRTtSo/view?usp=sharing) | [**85.97%**](https://drive.google.com/file/d/1AvKRNkxzUlawEwDFlFgVJpWFk1m2DFYW/view?usp=share_link) | [**89.09%**](https://drive.google.com/file/d/1aJ6oh-daYk7N2Ztg2xAgcRq4lJAU2zyK/view?usp=share_link) |
+
+The trained weights have been hyperlinked to their corresponding accuracies.
 
 ## Usage
 
