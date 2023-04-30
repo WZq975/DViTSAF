@@ -29,7 +29,7 @@ class DistillationLoss(torch.nn.Module):
 
         T = self.tau
 
-        if self.distillation == "SAF" or self.distillation == "SAF_KD":
+        if self.distillation == "SAF" or self.distillation == "SAF+KD":
             # SAF
             distillation_loss_1 = []
             selected_teacher_weights = teacher_weights[len(teacher_weights)//len(student_weights)-1::len(teacher_weights)//len(student_weights)]
@@ -43,7 +43,7 @@ class DistillationLoss(torch.nn.Module):
             distillation_loss_1 = torch.sum(distillation_loss_1, dim=0)
             # print(distillation_loss)
 
-        if self.distillation == "KD" or self.distillation == "SAF_KD":
+        if self.distillation == "KD" or self.distillation == "SAF+KD":
             # KD
             distillation_loss_2 = F.kl_div(
                 F.log_softmax(student_outputs / T, dim=1),
