@@ -1,4 +1,5 @@
-# Distilling Vision Transformer via Self-Attention Forcing (DViTSAF)
+## Course project in COMP691
+## Distilling Vision Transformer via Self-Attention Forcing (DViTSAF)
 | Model            | CIFAR-10 | CIFAR-100 | Flowers-102 |
 | ----------------|:---------:|:----------:|:------------:|
 | Teacher (ViT-L)  | 98.23%   | 89.29%    | 98.70%      |
